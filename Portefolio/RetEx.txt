@@ -1,0 +1,7 @@
+Visuel Retour d'experience(PDF)
+	-Cahier des charges 
+	-Livrable(Résultat)
+	-Méthode mise en oeuvre
+	-Compétences hard/soft
+		-Exemple Pong : dessiner balle, faire bouger balle sur x 
+		-hard : norme bloque code 
