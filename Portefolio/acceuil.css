@@ -3,7 +3,7 @@ body, html {
     padding: 0;
     font-family: TitleFontLatin, sans-serif;
     width: inherit;
-    background: url("img/RCXfgB.png");
+    background: url("Portefolio/img/RCXfgB.png");
     color: white;
 
 
@@ -293,7 +293,7 @@ div.imgLang {
 
 .pong {
     border: solid 2px grey;
-    background: no-repeat url(img/pong.jpg);
+    background: no-repeat url(Portefolio/img/pong.jpg);
 }
 
 div.pong {
@@ -317,17 +317,17 @@ div.pong:hover, div.Lowatem:hover, div.Shell:hover, div.CreationE:hover, div.Web
 
 
 .Lowatem {
-    background: url(img/lowatem-gui.png);
+    background: url(Portefolio/img/lowatem-gui.png);
 }
 
 
 .Vm {
-    background: no-repeat url(img/vmware.png);
+    background: no-repeat url(Portefolio/img/vmware.png);
 }
 
 
 .Web {
-    background: url(img/site.jpg);
+    background: url(Portefolio/img/site.jpg);
 }
 
 
@@ -368,7 +368,7 @@ div.pong:hover, div.Lowatem:hover, div.Shell:hover, div.CreationE:hover, div.Web
     align-items: center;
     border: solid 2px grey;
     margin: 7vh;
-    background: no-repeat url(img/logoRHPC-ConvertImage.png);
+    background: no-repeat url(Portefolio/img/logoRHPC-ConvertImage.png);
 }
 
 
@@ -383,7 +383,7 @@ div.pong:hover, div.Lowatem:hover, div.Shell:hover, div.CreationE:hover, div.Web
     align-items: center;
     border: solid 2px grey;
     margin: 7vh;
-    background: no-repeat url(img/Capture.PNG);
+    background: no-repeat url(Portefolio/img/Capture.PNG);
 }
 
 
@@ -420,7 +420,7 @@ img {
 }
 
 
-div.CSS,div.html , div.Java , div.Bash , div.Processing {
+div.CSS, div.html, div.Java, div.Bash, div.Processing {
     display: flex;
     flex-wrap: wrap;
     align-content: center;
