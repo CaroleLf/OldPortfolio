@@ -5,11 +5,6 @@ body, html {
     width: inherit;
     background: url("img/RCXfgB.png");
     color: white;
-
-
-
-
-
 }
 
 html {
@@ -34,8 +29,6 @@ h2 {
 h2.Perso {
     color: white
 }
-
-
 
 h1, h2, li, h3 {
     font-family: 'CustomFont', Arial, sans-serif;
