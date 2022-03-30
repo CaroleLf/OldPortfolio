@@ -2,7 +2,7 @@ body,
 html {
     margin: 0;
     padding: 0;
-  
+
     width: inherit;
     background-color: #212121;
     color: white;
@@ -14,8 +14,16 @@ html {
 
 @font-face {
     font-family: "CustomFont";
-    src: url("font/webfontkit-20220306-083442/pacifico-webfont.woff") format("woff");
+    src: url("Portefolio/font/webfontkit-20220306-083442/pacifico-webfont.woff") format("woff");
 
+}
+
+
+
+h1, h2, li, h3 {
+    font-family: 'CustomFont', Arial, sans-serif;
+    font-weight: normal;
+    font-style: normal;
 }
 
 header {
@@ -27,6 +35,7 @@ header {
 
 
 }
+
 header img {
     border: none;
     background-color: black;
@@ -38,11 +47,6 @@ header img {
 }
 
 
-h1, h2, li, h3 {
-    font-family: 'CustomFont', Arial, sans-serif;
-    font-weight: normal;
-    font-style: normal;
-}
 
 main {
     display: flex;
@@ -60,9 +64,15 @@ main {
 
 
 div.year {
- border: #DEC79B solid 2px;   
+    border: #DEC79B solid 2px;
     display: flex;
 
+
+}
+
+div.title {
+    position: relative;
+    left: 1vw
 }
 
 
