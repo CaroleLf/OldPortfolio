@@ -14,7 +14,7 @@ html {
 
 @font-face {
     font-family: "CustomFont";
-    src: url("Portefolio/font/webfontkit-20220306-083442/pacifico-webfont.woff") format("woff");
+    src: url("font/webfontkit-20220306-083442/pacifico-webfont.woff") format("woff");
 
 }
 
