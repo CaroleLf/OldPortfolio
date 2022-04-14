@@ -11,10 +11,9 @@ html {
 html {
     scroll-behavior: smooth;
 }
-
 @font-face {
     font-family: "CustomFont";
-    src: url("font/webfontkit-20220306-083442/pacifico-webfont.woff") format("woff");
+     src: url("font/Oswald/Oswald-VariableFont_wght.woff") format("woff");
 
 }
 
@@ -31,7 +30,7 @@ header {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    justify-content: center;
+  
 
 
 }
