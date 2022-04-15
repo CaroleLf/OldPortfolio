@@ -80,10 +80,10 @@ main {
 
 
 div.year {
-    border: #DEC79B solid 2px;
+       border: #DEC79B solid 2px;
+    min-width: 90vw;
     display: flex;
-
-
+    justify-content: space-between;
 }
 
 div.title {
@@ -93,8 +93,8 @@ div.title {
 
 
 div.value {
-    position: relative;
     left: 90vh;
+    margin-right: 5vh;
 }
 
 .Presentation {
@@ -111,6 +111,10 @@ div.value {
     display: flex;
     padding: 5vh;
     margin : 5vh
+}
+
+div.boom {
+    display: flex;
 }
 
 

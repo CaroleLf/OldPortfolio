@@ -226,7 +226,7 @@ div#aPropos {
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: stretch;
-    box-shadow: 10px 5px 5px #DEC79B;
+    
 }
 
 
@@ -323,9 +323,7 @@ div.pong:hover, div.Lowatem:hover, div.Shell:hover, div.CreationE:hover, div.Web
     background: url(img/site.jpg);
 }
 
-.BD {
-    background: url(img/vin.png);
-}
+
 
 
 
@@ -432,4 +430,16 @@ div.CSS, div.html, div.Java, div.Bash, div.Processing {
     align-content: center;
     flex-direction: column;
     align-items: center;
+}
+
+
+.BD h3 {
+      text-align: center;
+      
+    z-index: 200;
+}
+div.imageVin {
+        text-align: center;
+
+    position: absolute;
 }
