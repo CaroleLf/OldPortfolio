@@ -1,7 +1,6 @@
 body, html {
     margin: 0;
     padding: 0;
-    font-family: TitleFontLatin, sans-serif;
     width: inherit;
     background: url("img/RCXfgB.png");
     color: white;
@@ -161,7 +160,7 @@ div.arrow-down {
 
 #aPropos {
     height: 20vh;
-    width: 300vh;
+    width: 88vw;
 }
 
 .vertical-line {
@@ -243,16 +242,18 @@ div#aPropos {
 div.pong, div.Lowatem, div.Web, div.Shell, div.Vm, div.BD {
     display: flex;
     flex-wrap: wrap;
-    height: 20vh;
+    min-height: 20vh;
     justify-content: center;
     flex-direction: column;
     align-content: center;
     align-items: center;
     border: solid 2px #DEC79B;
     margin: 5vh;
+  
 
 
 }
+
 
 div.imgLang {
     display: flex;
@@ -264,9 +265,9 @@ div.imgLang {
 .p {
     display: flex;
     margin: 1vw;
-    padding: 1vh;
-    width: 50vh;
-    height: 50vh;
+    padding: 1vw;
+    min-width: 50vh;
+    min-height: 50vh;
     flex-wrap: nowrap;
     justify-content: center;
     flex-direction: column;
@@ -307,6 +308,26 @@ div.pong:hover, div.Lowatem:hover, div.Shell:hover, div.CreationE:hover, div.Web
 }
 
 
+div.contenuVin {
+     
+}
+
+
+div.texteVin {
+position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+}
+
+
+div.imageVin {
+
+    position: relative;
+  text-align: center;
+}
+
 
 .Lowatem {
     background: url(img/lowatem-gui.png);
@@ -314,12 +335,17 @@ div.pong:hover, div.Lowatem:hover, div.Shell:hover, div.CreationE:hover, div.Web
 
 
 .Vm {
-    background: no-repeat url(img/vmware.png);
+    background: no-repeat url(img/debian.jpg);
 }
 
 
 .Web {
     background: url(img/site.jpg);
+}
+
+
+div.deuxLanguages {
+    display: flex;
 }
 
 
@@ -438,15 +464,7 @@ div.CSS, div.html, div.Java, div.Bash, div.Processing, div.SQL {
     z-index: 200;
 }
 
-div.BD {
-    
-}
 
-
-div.imageVin {
-    text-align: center;
-    position: absolute;
-}
 
 
 
