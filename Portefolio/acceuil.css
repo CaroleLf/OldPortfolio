@@ -70,9 +70,6 @@ div.PremierPlan {
 
 
 
-.PremierPlan {
-    height: 1000vh;
-}
 
 #titre {
     display: flex;
@@ -532,16 +529,16 @@ div.CSS, div.html, div.Java, div.Bash, div.Processing, div.SQL {
 }
 @keyframes flash {
     0% {
-        color: #fff900;
-        text-shadow: 0 0 7px #fff900;
+        color: #DEC79B;
+        text-shadow: 0 0 7px #DEC79B;
     }
     90% {
         color: #484848;
         text-shadow: none;
     }
     100% {
-        color: #fff900;
-        text-shadow: 0 0 7px #fff900;
+        color: #DEC79B;
+        text-shadow: 0 0 7px #DEC79B;
     }
 }
 
