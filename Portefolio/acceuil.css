@@ -42,13 +42,30 @@ h1, h2, li, h3 {
 
 }
 
+#ShortcutInfo p, a {
+    font-size: 123%;
+}
+
+#ShortcutInfo {
+    display: flex;
+    margin-left: 2vw;
+    margin-right: 2vw;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-between;
+    min-width: 70vw;
+}
 
 header {
     flex: 2;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    margin-left: 2vw;
+    margin-right: 2vw;
 }
+
 
 div.Contenu {
     display: flex;
