@@ -2,7 +2,6 @@ body,
 html {
     margin: 0;
     padding: 0;
-
     width: inherit;
     background-color: #212121;
     color: white;
@@ -11,20 +10,22 @@ html {
 html {
     scroll-behavior: smooth;
 }
+
 @font-face {
     font-family: "CustomFont";
-     src: url("font/Oswald/Oswald-VariableFont_wght.woff") format("woff");
-
+    src: url("../../font/Oswald/Oswald-VariableFont_wght.woff") format("woff");
 }
 
 #Outils img {
-     border-radius: 30px;
-
+    border-radius: 30px;
     min-height: 20px;
     max-height: 60px;
 }
 
-h1, h2, li, h3 {
+h1,
+h2,
+li,
+h3 {
     font-family: 'CustomFont', Arial, sans-serif;
     font-weight: normal;
     font-style: normal;
@@ -35,34 +36,29 @@ header {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-  
-
-
 }
 
 header img {
     border: none;
     background-color: black;
-
     border-radius: 30px;
     background-color: #212121;
     min-height: 20px;
     max-height: 60px;
 }
 
-div.Title img{
+div.Title img {
     height: auto;
     width: auto;
     border: none;
 }
 
 div.Title {
-       display: flex;
+    display: flex;
     flex-direction: column;
     align-items: center;
     flex-wrap: wrap;
 }
-
 
 main {
     display: flex;
@@ -78,9 +74,8 @@ main {
     align-content: space-around;
 }
 
-
 div.year {
-       border: #DEC79B solid 2px;
+    border: #DEC79B solid 2px;
     min-width: 90vw;
     display: flex;
     justify-content: space-between;
@@ -91,32 +86,27 @@ div.title {
     left: 1vw
 }
 
-
 div.value {
     left: 90vh;
     margin-right: 5vh;
 }
 
 .Presentation {
-       display: flex;
+    display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     align-items: center;
-
 }
 
-
-#Outils , #CahierCharges , #Livrable {
-     border: #DEC79B solid 2px;
+#Outils,
+#CahierCharges,
+#Livrable {
+    border: #DEC79B solid 2px;
     display: flex;
     padding: 5vh;
-    margin : 5vh
+    margin: 5vh
 }
 
 div.boom {
     display: flex;
 }
-
-
-
-
