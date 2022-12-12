@@ -555,3 +555,7 @@ div.SQL {
     opacity: 0;
     transition: opacity 0.4s ease-out;
 }
+
+.contenu6quiPrend h3 {
+    color: black;
+}
